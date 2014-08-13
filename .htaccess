@@ -1,0 +1,11 @@
+## access pages
+Options -Multiviews
+php_flag display_errors ON
+
+RewriteEngine On
+RewriteBase /modular
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule (.*) index.php?url=$1
