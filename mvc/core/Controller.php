@@ -28,19 +28,18 @@ class Controller{
   }
 
   private function showView($theme_page, $view, $data=array()){
-    if(file_exists(SERVER_PATH.THEME_PATH."/$theme_page.php")){
+    if(file_exists(BASE_PATH.THEME_PATH."/$theme_page.php")){
       extract($data);
       ob_start();
       require_once BASE_PATH.'/app/'.$this->module.'/views/'.$view.'.php';
       $content = ob_get_clean();
 
-     // require_once BASE_PATH.THEME_PATH."/$theme_page.php";
-      require_once SERVER_PATH.THEME_PATH."/$theme_page.php";
+      require_once BASE_PATH.THEME_PATH."/$theme_page.php";
     }
     else{
       $call_file = debug_backtrace()[1]["file"];
       $line = debug_backtrace()[1]["line"];
-      $msg = "(".SERVER_PATH.THEME_PATH."/$theme_page.php) failed to open stream: No such file or directory in <b>$call_file</b> on line $line<br/>";
+      $msg = "(".BASE_PATH.THEME_PATH."/$theme_page.php) failed to open stream: No such file or directory in <b>$call_file</b> on line $line<br/>";
       die($msg);
     }
   }

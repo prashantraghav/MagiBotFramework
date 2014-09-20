@@ -6,12 +6,13 @@
 class HomeController extends Controller{
   
   public function index(){
-    $ob =  $this->model('home');
-    $table = $ob->showTables();
-    //print_r($table);
+    //$ob =  $this->model('home');
+    //$table = $ob->showTables();
     $data["name"] = "Deepali";
     $data["lastname"] = "jauhri";
-    $data["tbl"] = $table;
+    //$data["tbl"] = $table;
+   echo BASE_PATH;
+   //echo APP_ROOT;
     $this->fullView('home/test', $data);
   }
 
