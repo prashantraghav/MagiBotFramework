@@ -13,7 +13,7 @@ class HomeController extends Controller{
     //$data["tbl"] = $table;
    echo BASE_PATH;
    //echo APP_ROOT;
-    $this->fullView('home/test', $data);
+    $this->View('home/test', $data);
   }
 
   public function asd(){
