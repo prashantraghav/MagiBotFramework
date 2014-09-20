@@ -4,7 +4,7 @@
                         <small>Control panel</small>
                     </h1>
                     <ol class="breadcrumb">
-                        <li><a href="<?php echo THEME_PATH?>/#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li><a href="<?php echo THEME?>/#"><i class="fa fa-dashboard"></i> Home</a></li>
                         <li class="active">Dashboard</li>
                     </ol>
                 </section>

@@ -8,6 +8,5 @@ define('DB_NAME', 'feedback');
 
 
 
-
-define('DEFAULT_THEME', 'adminLTE');
+define('DEFAULT_THEME', 'agency');
 define('ADMIN_THEME', 'admin');

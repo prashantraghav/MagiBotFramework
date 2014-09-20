@@ -80,7 +80,8 @@ class MVC{
     else
        $theme = DEFAULT_THEME;
 
-    define('THEME_PATH', (defined('APP_ROOT'))?'/'.APP_ROOT.'/themes/'.$theme:'/themes/'.$theme);
+    define('THEME_PATH', '/themes/'.$theme);
+    define('THEME', (defined('APP_ROOT'))?'./'.APP_ROOT.'/themes/'.$theme:'./themes/'.$theme);
   }
 
   private function pageNotFound(){
