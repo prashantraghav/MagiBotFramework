@@ -1,5 +1,7 @@
 <?php
 define('BASE_PATH', dirname(dirname(dirname(realpath(__FILE__)))));
+define('APP_ROOT', str_replace($_SERVER['DOCUMENT_ROOT']."/", "", BASE_PATH));
+define('SERVER_PATH', $_SERVER['DOCUMENT_ROOT']);
 define('BASE_URL', (isset($_SERVER['HTTPS']))?"https://":'http://'.str_replace($_SERVER['DOCUMENT_ROOT'], $_SERVER['SERVER_NAME'], BASE_PATH));
 
 //define('THEME_PATH', (defined('APP_ROOT'))?'/'.APP_ROOT.'/themes/'.THEME:'/themes/'.THEME);

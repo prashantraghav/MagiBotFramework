@@ -1,4 +1,5 @@
 <?php 
+
 class HomeModel{
 
   private $db;
@@ -8,11 +9,9 @@ class HomeModel{
   }
 
   public function showTables(){
-    //$result = $this->db->query('show tables');
-    //print_r($result->fetch_assoc());
     $db = new DB();
     $tables = $db->getResult('show tables');
-    print_r($tables);
+    return $tables;
   }
 }
 ?>

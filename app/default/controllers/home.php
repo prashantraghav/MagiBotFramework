@@ -6,9 +6,17 @@
 class HomeController extends Controller{
   
   public function index(){
-    $home_model =  $this->model('home');
-    $home_model->showTables();
-    $this->homeView('home/view', array("name"=>"Prashant"));
+    $ob =  $this->model('home');
+    $table = $ob->showTables();
+    //print_r($table);
+    $data["name"] = "Deepali";
+    $data["lastname"] = "jauhri";
+    $data["tbl"] = $table;
+    $this->fullView('home/test', $data);
+  }
+
+  public function asd(){
+      
   }
 }
 ?>
