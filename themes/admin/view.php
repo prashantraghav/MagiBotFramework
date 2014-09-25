@@ -36,7 +36,7 @@
                     <div class="col-lg-12">
                         <div class="alert alert-info alert-dismissable">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <i class="fa fa-info-circle"></i>  <strong>Like SB Admin?</strong> Try out <a href="<?php echo THEME_PATH?>/http://startbootstrap.com/template-overviews/sb-admin-2" class="alert-link">SB Admin 2</a> for additional features!
+                            <i class="fa fa-info-circle"></i>  <strong>Like SB Admin?</strong> Try out <a href="<?php echo THEME?>/http://startbootstrap.com/template-overviews/sb-admin-2" class="alert-link">SB Admin 2</a> for additional features!
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="<?php echo THEME_PATH?>/#">
+                            <a href="<?php echo THEME?>/#">
                                 <div class="panel-footer">
                                     <span class="pull-left">View Details</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -78,7 +78,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="<?php echo THEME_PATH?>/#">
+                            <a href="<?php echo THEME?>/#">
                                 <div class="panel-footer">
                                     <span class="pull-left">View Details</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -100,7 +100,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="<?php echo THEME_PATH?>/#">
+                            <a href="<?php echo THEME?>/#">
                                 <div class="panel-footer">
                                     <span class="pull-left">View Details</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -122,7 +122,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="<?php echo THEME_PATH?>/#">
+                            <a href="<?php echo THEME?>/#">
                                 <div class="panel-footer">
                                     <span class="pull-left">View Details</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -157,7 +157,7 @@
                             <div class="panel-body">
                                 <div id="morris-donut-chart"></div>
                                 <div class="text-right">
-                                    <a href="<?php echo THEME_PATH?>/#">View Details <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="<?php echo THEME?>/#">View Details <i class="fa fa-arrow-circle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -169,41 +169,41 @@
                             </div>
                             <div class="panel-body">
                                 <div class="list-group">
-                                    <a href="<?php echo THEME_PATH?>/#" class="list-group-item">
+                                    <a href="<?php echo THEME?>/#" class="list-group-item">
                                         <span class="badge">just now</span>
                                         <i class="fa fa-fw fa-calendar"></i> Calendar updated
                                     </a>
-                                    <a href="<?php echo THEME_PATH?>/#" class="list-group-item">
+                                    <a href="<?php echo THEME?>/#" class="list-group-item">
                                         <span class="badge">4 minutes ago</span>
                                         <i class="fa fa-fw fa-comment"></i> Commented on a post
                                     </a>
-                                    <a href="<?php echo THEME_PATH?>/#" class="list-group-item">
+                                    <a href="<?php echo THEME?>/#" class="list-group-item">
                                         <span class="badge">23 minutes ago</span>
                                         <i class="fa fa-fw fa-truck"></i> Order 392 shipped
                                     </a>
-                                    <a href="<?php echo THEME_PATH?>/#" class="list-group-item">
+                                    <a href="<?php echo THEME?>/#" class="list-group-item">
                                         <span class="badge">46 minutes ago</span>
                                         <i class="fa fa-fw fa-money"></i> Invoice 653 has been paid
                                     </a>
-                                    <a href="<?php echo THEME_PATH?>/#" class="list-group-item">
+                                    <a href="<?php echo THEME?>/#" class="list-group-item">
                                         <span class="badge">1 hour ago</span>
                                         <i class="fa fa-fw fa-user"></i> A new user has been added
                                     </a>
-                                    <a href="<?php echo THEME_PATH?>/#" class="list-group-item">
+                                    <a href="<?php echo THEME?>/#" class="list-group-item">
                                         <span class="badge">2 hours ago</span>
                                         <i class="fa fa-fw fa-check"></i> Completed task: "pick up dry cleaning"
                                     </a>
-                                    <a href="<?php echo THEME_PATH?>/#" class="list-group-item">
+                                    <a href="<?php echo THEME?>/#" class="list-group-item">
                                         <span class="badge">yesterday</span>
                                         <i class="fa fa-fw fa-globe"></i> Saved the world
                                     </a>
-                                    <a href="<?php echo THEME_PATH?>/#" class="list-group-item">
+                                    <a href="<?php echo THEME?>/#" class="list-group-item">
                                         <span class="badge">two days ago</span>
                                         <i class="fa fa-fw fa-check"></i> Completed task: "fix error on sales page"
                                     </a>
                                 </div>
                                 <div class="text-right">
-                                    <a href="<?php echo THEME_PATH?>/#">View All Activity <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="<?php echo THEME?>/#">View All Activity <i class="fa fa-arrow-circle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -277,7 +277,7 @@
                                     </table>
                                 </div>
                                 <div class="text-right">
-                                    <a href="<?php echo THEME_PATH?>/#">View All Transactions <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="<?php echo THEME?>/#">View All Transactions <i class="fa fa-arrow-circle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -295,15 +295,15 @@
     <!-- /#wrapper -->
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="<?php echo THEME_PATH?>/js/jquery-1.11.0.js"></script>
+    <script src="<?php echo THEME?>/js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="<?php echo THEME_PATH?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo THEME?>/js/bootstrap.min.js"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="<?php echo THEME_PATH?>/js/plugins/morris/raphael.min.js"></script>
-    <script src="<?php echo THEME_PATH?>/js/plugins/morris/morris.min.js"></script>
-    <script src="<?php echo THEME_PATH?>/js/plugins/morris/morris-data.js"></script>
+    <script src="<?php echo THEME?>/js/plugins/morris/raphael.min.js"></script>
+    <script src="<?php echo THEME?>/js/plugins/morris/morris.min.js"></script>
+    <script src="<?php echo THEME?>/js/plugins/morris/morris-data.js"></script>
 
 </body>
 

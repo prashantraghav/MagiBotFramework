@@ -22,9 +22,10 @@ class Controller{
   protected function blankView($view, $data = array()){
     $this->showView('blank', $view, $data);
   }
-protected function contactView($view, $data = array()){
-$this->showView('contact', $view, $data);
-}
+  
+  protected function contactView($view, $data = array()){
+    $this->showView('contact', $view, $data);
+  }
 
   protected function fullView($view, $data = array()){
     $this->showView('full', $view, $data);

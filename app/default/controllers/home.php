@@ -6,7 +6,6 @@
 class HomeController extends Controller{
   
   public function index(){
-	session_start();
 	$_SESSION["page"] = "home";
     //$ob =  $this->model('home');
     //$table = $ob->showTables();
