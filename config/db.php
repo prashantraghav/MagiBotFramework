@@ -1,7 +1,8 @@
 <?php 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'feedback');
-define('DB_PASS', 'feedback');
-define('DB_NAME', 'feedback');
+define('DB_USER', 'deepali');
+define('DB_PASS', 'deepali');
+define('DB_NAME', 'muscovado');
+?>
 
 
