@@ -3,7 +3,7 @@ Options -Multiviews
 php_flag display_errors ON
 
 RewriteEngine On
-RewriteBase /deepali/magicbotframwork
+RewriteBase /magicbotframework
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f

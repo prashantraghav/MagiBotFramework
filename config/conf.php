@@ -7,7 +7,7 @@ define('DB_NAME', 'feedback');*/
 
 
 
-define('BASE_URL', 'http://d4.magicbot.in/deepali/magicbotframwork/');
-define('APP_ROOT', '/deepali/magicbotframwork');
+define('BASE_URL', 'localhost');
+define('APP_ROOT', '/magicbotframework');
 define('DEFAULT_THEME', 'product_management');
 define('ADMIN_THEME', 'admin1');
